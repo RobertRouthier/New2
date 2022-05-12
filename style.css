@@ -18,6 +18,10 @@ body {
     background-color: var(--color-bg-primary);
 }
 
+a{
+    text-decoration: none;
+}
+
 nav {
     display: flex;
     padding: 10px;
@@ -127,6 +131,17 @@ main section .content {
     background-position: center;
     background-size: cover;
     
+}
+
+.project-one{
+    flex: 1 0 300px;
+    margin: 10px;
+    height: 200px;
+    background-color: lightblue;
+    position: relative;
+    background-image: url(https://images.ctfassets.net/umhrp0op95v1/3uKxpqws73m0VRKwmOk3WA/2c14d34e4080b0d226d002bc2cccade6/Lost_Ark_Key_Art_1200x630.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
